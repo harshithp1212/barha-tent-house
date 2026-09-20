@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: barha-tent-house
+    env: docker
+    plan: free
+    region: singapore
+    branch: main
+    autoDeploy: true
+    healthCheckPath: /api/public/settings
